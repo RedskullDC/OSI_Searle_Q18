@@ -1,0 +1,779 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/FPGA/Altera/DE0_CV/OSI_Searle_Q17/UK101_DE0CV/simulation/modelsim
+Eacia6850
+Z1 w1289634507
+Z2 DPx4 ieee 15 std_logic_arith 0 22 [G314=:2zXJ`VORJe1J@Z1
+Z3 DPx4 ieee 18 std_logic_unsigned 0 22 ;eZjO2D4ZDz<]0>8AL<ne1
+Z4 DPx4 ieee 11 numeric_std 0 22 :ASDNFgHXf_ih3J@9F3Ze1
+Z5 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z6 DPx4 ieee 14 std_logic_1164 0 22 eNV`TJ_GofJTzYa?f<@Oe1
+R0
+Z7 8C:/FPGA/Altera/DE0_CV/OSI_Searle_Q17/Components/6850/acia6850.vhd
+Z8 FC:/FPGA/Altera/DE0_CV/OSI_Searle_Q17/Components/6850/acia6850.vhd
+l0
+L135
+VVhHo5^NnCbcoI2h3I1fjz2
+!s100 lD6R;?:g0K<mWHE39jWDF3
+Z9 OV;C;10.5b;63
+31
+Z10 !s110 1502200650
+!i10b 1
+Z11 !s108 1502200650.000000
+Z12 !s90 -reportprogress|300|-93|-work|work|C:/FPGA/Altera/DE0_CV/OSI_Searle_Q17/Components/6850/acia6850.vhd|
+Z13 !s107 C:/FPGA/Altera/DE0_CV/OSI_Searle_Q17/Components/6850/acia6850.vhd|
+!i113 1
+Z14 o-93 -work work
+Z15 tExplicit 1 CvgOpt 0
+Artl
+R2
+R3
+R4
+R5
+R6
+DEx4 work 8 acia6850 0 22 VhHo5^NnCbcoI2h3I1fjz2
+l317
+L165
+V2f0l[1Tf1Mj8S5H98;hS00
+!s100 S`h1?bC0jX]3oWnJXX7Fb2
+R9
+31
+R10
+!i10b 1
+R11
+R12
+R13
+!i113 1
+R14
+R15
+Ebasicrom
+Z16 w1498569662
+Z17 DPx9 altera_mf 20 altera_mf_components 0 22 :YRc5<ojH^WgP]^Vezi9c1
+R5
+R6
+R0
+Z18 8C:/FPGA/Altera/DE0_CV/OSI_Searle_Q17/UK101/BasicRom.vhd
+Z19 FC:/FPGA/Altera/DE0_CV/OSI_Searle_Q17/UK101/BasicRom.vhd
+l0
+L43
+VLf`^K]D=eMDeeBRjXM9h43
+!s100 ^S`AOFf2S0g<W8Z=I3L411
+R9
+31
+Z20 !s110 1502200651
+!i10b 1
+Z21 !s108 1502200651.000000
+Z22 !s90 -reportprogress|300|-93|-work|work|C:/FPGA/Altera/DE0_CV/OSI_Searle_Q17/UK101/BasicRom.vhd|
+Z23 !s107 C:/FPGA/Altera/DE0_CV/OSI_Searle_Q17/UK101/BasicRom.vhd|
+!i113 1
+R14
+R15
+Asyn
+R17
+R5
+R6
+DEx4 work 8 basicrom 0 22 Lf`^K]D=eMDeeBRjXM9h43
+l57
+L53
+Vd=JUW7APJ>Hh]9IDbef]m3
+!s100 KPQ01;_zM[89^NCL[V[Ob2
+R9
+31
+R20
+!i10b 1
+R21
+R22
+R23
+!i113 1
+R14
+R15
+Ebuffereduart
+Z24 w1390040126
+R2
+R3
+R4
+R5
+R6
+R0
+Z25 8C:/FPGA/Altera/DE0_CV/OSI_Searle_Q17/Components/UART/bufferedUART.vhd
+Z26 FC:/FPGA/Altera/DE0_CV/OSI_Searle_Q17/Components/UART/bufferedUART.vhd
+l0
+L23
+VggUFOla1gg2W@D[J45L:53
+!s100 IDW5`nmi0hLG^E1bi7Vbj0
+R9
+31
+R20
+!i10b 1
+R21
+Z27 !s90 -reportprogress|300|-93|-work|work|C:/FPGA/Altera/DE0_CV/OSI_Searle_Q17/Components/UART/bufferedUART.vhd|
+Z28 !s107 C:/FPGA/Altera/DE0_CV/OSI_Searle_Q17/Components/UART/bufferedUART.vhd|
+!i113 1
+R14
+R15
+Artl
+R2
+R3
+R4
+R5
+R6
+DEx4 work 12 buffereduart 0 22 ggUFOla1gg2W@D[J45L:53
+l79
+L41
+Vo_V1G>RUL1>Xf<Ea=:6cB3
+!s100 TC`C4ANmD][=zfLKd`>fG2
+R9
+31
+R20
+!i10b 1
+R21
+R27
+R28
+!i113 1
+R14
+R15
+Ecegmonrom
+Z29 w1499600563
+R2
+R3
+R4
+R5
+R6
+R0
+Z30 8C:/FPGA/Altera/DE0_CV/OSI_Searle_Q17/UK101/CegmonRom.VHD
+Z31 FC:/FPGA/Altera/DE0_CV/OSI_Searle_Q17/UK101/CegmonRom.VHD
+l0
+L27
+Vh?2fkji97ccBU8l4Ub^_W1
+!s100 aU=Kg_TP96I5;MC_bcE@c1
+R9
+31
+R20
+!i10b 1
+R21
+Z32 !s90 -reportprogress|300|-93|-work|work|C:/FPGA/Altera/DE0_CV/OSI_Searle_Q17/UK101/CegmonRom.VHD|
+Z33 !s107 C:/FPGA/Altera/DE0_CV/OSI_Searle_Q17/UK101/CegmonRom.VHD|
+!i113 1
+R14
+R15
+Abehavior
+R2
+R3
+R4
+R5
+R6
+DEx4 work 9 cegmonrom 0 22 h?2fkji97ccBU8l4Ub^_W1
+l169
+L36
+Vzn3A`cTDjd8RlE`7mM24X2
+!s100 9l;b4S6WaZ>WQ_^bEAdRH0
+R9
+31
+R20
+!i10b 1
+R21
+R32
+R33
+!i113 1
+R14
+R15
+Echarrom
+Z34 w1498658756
+R2
+R3
+R4
+R5
+R6
+R0
+Z35 8C:/FPGA/Altera/DE0_CV/OSI_Searle_Q17/UK101/CharRom.VHD
+Z36 FC:/FPGA/Altera/DE0_CV/OSI_Searle_Q17/UK101/CharRom.VHD
+l0
+L25
+VXPdaz[Z;9SEH1fD9B>QKf1
+!s100 =Wafc@c1b_oSTKl1a8jle2
+R9
+31
+R20
+!i10b 1
+R21
+Z37 !s90 -reportprogress|300|-93|-work|work|C:/FPGA/Altera/DE0_CV/OSI_Searle_Q17/UK101/CharRom.VHD|
+Z38 !s107 C:/FPGA/Altera/DE0_CV/OSI_Searle_Q17/UK101/CharRom.VHD|
+!i113 1
+R14
+R15
+Abehavior
+R2
+R3
+R4
+R5
+R6
+DEx4 work 7 charrom 0 22 XPdaz[Z;9SEH1fD9B>QKf1
+l167
+L34
+V2Pz:nAYbQDEI6Xh]XT?PC3
+!s100 7UoQUi5LIE3P3U5e;CN>N2
+R9
+31
+R20
+!i10b 1
+R21
+R37
+R38
+!i113 1
+R14
+R15
+Ediskram
+Z39 w1501768909
+R17
+R5
+R6
+R0
+Z40 8C:/FPGA/Altera/DE0_CV/OSI_Searle_Q17/UK101_DE0CV/DiskRAM.vhd
+Z41 FC:/FPGA/Altera/DE0_CV/OSI_Searle_Q17/UK101_DE0CV/DiskRAM.vhd
+l0
+L43
+VRBJU@cIQdnWP8J5BYIXI[1
+!s100 5B?`TM5jD6>d4P^g16m^E3
+R9
+31
+Z42 !s110 1502200652
+!i10b 1
+Z43 !s108 1502200652.000000
+Z44 !s90 -reportprogress|300|-93|-work|work|C:/FPGA/Altera/DE0_CV/OSI_Searle_Q17/UK101_DE0CV/DiskRAM.vhd|
+Z45 !s107 C:/FPGA/Altera/DE0_CV/OSI_Searle_Q17/UK101_DE0CV/DiskRAM.vhd|
+!i113 1
+R14
+R15
+Asyn
+R17
+R5
+R6
+DEx4 work 7 diskram 0 22 RBJU@cIQdnWP8J5BYIXI[1
+l59
+L55
+V^bPCXH;<<Z<Wh^SEnJilQ1
+!s100 ]@Vd7o=Yn>^5ccaOLQk6Q3
+R9
+31
+R42
+!i10b 1
+R43
+R44
+R45
+!i113 1
+R14
+R15
+Edisplayram
+Z46 w1498569648
+R17
+R5
+R6
+R0
+Z47 8C:/FPGA/Altera/DE0_CV/OSI_Searle_Q17/UK101/DisplayRam.vhd
+Z48 FC:/FPGA/Altera/DE0_CV/OSI_Searle_Q17/UK101/DisplayRam.vhd
+l0
+L43
+Vk?Xb0_Z4gAS]ZQ;IK9N300
+!s100 fHi_zOl>Jn36DHk7HYS312
+R9
+31
+R20
+!i10b 1
+R21
+Z49 !s90 -reportprogress|300|-93|-work|work|C:/FPGA/Altera/DE0_CV/OSI_Searle_Q17/UK101/DisplayRam.vhd|
+Z50 !s107 C:/FPGA/Altera/DE0_CV/OSI_Searle_Q17/UK101/DisplayRam.vhd|
+!i113 1
+R14
+R15
+Asyn
+R17
+R5
+R6
+DEx4 work 10 displayram 0 22 k?Xb0_Z4gAS]ZQ;IK9N300
+l65
+L60
+V@Ql0CUd=Im7Q9k0zJP=W@2
+!s100 g[55F[]F7^P8FFDX^_b]E1
+R9
+31
+R20
+!i10b 1
+R21
+R49
+R50
+!i113 1
+R14
+R15
+Ehiresram
+Z51 w1499604178
+R17
+R5
+R6
+R0
+Z52 8C:/FPGA/Altera/DE0_CV/OSI_Searle_Q17/UK101/HiresRam.vhd
+Z53 FC:/FPGA/Altera/DE0_CV/OSI_Searle_Q17/UK101/HiresRam.vhd
+l0
+L43
+VGEKAQWkgkQ8THQkd<XH>11
+!s100 Z87cWZb0Li7Rod=84mODf2
+R9
+31
+R20
+!i10b 1
+R21
+Z54 !s90 -reportprogress|300|-93|-work|work|C:/FPGA/Altera/DE0_CV/OSI_Searle_Q17/UK101/HiresRam.vhd|
+Z55 !s107 C:/FPGA/Altera/DE0_CV/OSI_Searle_Q17/UK101/HiresRam.vhd|
+!i113 1
+R14
+R15
+Asyn
+R17
+R5
+R6
+DEx4 work 8 hiresram 0 22 GEKAQWkgkQ8THQkd<XH>11
+l65
+L60
+V<Sc[YzhFH<4BkWGHoC70o3
+!s100 RbOWFPAh?lYa=b5zzPbYc1
+R9
+31
+R20
+!i10b 1
+R21
+R54
+R55
+!i113 1
+R14
+R15
+Epia6821
+Z56 w1501426372
+R2
+R3
+R5
+R6
+R0
+Z57 8C:/FPGA/Altera/DE0_CV/OSI_Searle_Q17/Components/6821/pia6821.vhd
+Z58 FC:/FPGA/Altera/DE0_CV/OSI_Searle_Q17/Components/6821/pia6821.vhd
+l0
+L67
+V52NzB`XgfI2ET<GP48oBH3
+!s100 J5]Ln;oEo9o50CodVgzCR0
+R9
+31
+R20
+!i10b 1
+R21
+Z59 !s90 -reportprogress|300|-93|-work|work|C:/FPGA/Altera/DE0_CV/OSI_Searle_Q17/Components/6821/pia6821.vhd|
+Z60 !s107 C:/FPGA/Altera/DE0_CV/OSI_Searle_Q17/Components/6821/pia6821.vhd|
+!i113 1
+R14
+R15
+Apia_arch
+R2
+R3
+R5
+R6
+DEx4 work 7 pia6821 0 22 52NzB`XgfI2ET<GP48oBH3
+l126
+L87
+V_7Ma3fBW58F[>9oUd`O:l0
+!s100 o0TPUnQRMT_8dLjjfZWa83
+R9
+31
+R20
+!i10b 1
+R21
+R59
+R60
+!i113 1
+R14
+R15
+Epll5_25
+Z61 w1498568521
+R5
+R6
+Z62 DPx12 altera_lnsim 23 altera_lnsim_components 0 22 PQDYM9fR]Wek<A7X8bA8S1
+R0
+Z63 8C:/FPGA/Altera/DE0_CV/OSI_Searle_Q17/UK101_DE0CV/PLL5_25_sim/PLL5_25.vho
+Z64 FC:/FPGA/Altera/DE0_CV/OSI_Searle_Q17/UK101_DE0CV/PLL5_25_sim/PLL5_25.vho
+l0
+L34
+VF@0BYARFmh_;A6J[X]VMZ3
+!s100 ;UQAU9_3CbU0@KG_HY65_2
+R9
+32
+R10
+!i10b 1
+R11
+Z65 !s90 -reportprogress|300|C:/FPGA/Altera/DE0_CV/OSI_Searle_Q17/UK101_DE0CV/PLL5_25_sim/PLL5_25.vho|
+Z66 !s107 C:/FPGA/Altera/DE0_CV/OSI_Searle_Q17/UK101_DE0CV/PLL5_25_sim/PLL5_25.vho|
+!i113 1
+R15
+Artl
+R5
+R6
+R62
+DEx4 work 7 pll5_25 0 22 F@0BYARFmh_;A6J[X]VMZ3
+l54
+L47
+V04PmMZg34Xf6ER^S2iNjc2
+!s100 c5hNNj4@dN6_bJaI102<m2
+R9
+32
+R10
+!i10b 1
+R11
+R65
+R66
+!i113 1
+R15
+Eprogram
+Z67 w1499605368
+R17
+R5
+R6
+R0
+Z68 8C:/FPGA/Altera/DE0_CV/OSI_Searle_Q17/UK101_DE0CV/ProgRam.vhd
+Z69 FC:/FPGA/Altera/DE0_CV/OSI_Searle_Q17/UK101_DE0CV/ProgRam.vhd
+l0
+L43
+VX`ma<oN_<HSI9m4]U==Ln1
+!s100 >Y;F4EV[MSEL3JonC4JmY1
+R9
+31
+R20
+!i10b 1
+R21
+Z70 !s90 -reportprogress|300|-93|-work|work|C:/FPGA/Altera/DE0_CV/OSI_Searle_Q17/UK101_DE0CV/ProgRam.vhd|
+Z71 !s107 C:/FPGA/Altera/DE0_CV/OSI_Searle_Q17/UK101_DE0CV/ProgRam.vhd|
+!i113 1
+R14
+R15
+Asyn
+R17
+R5
+R6
+DEx4 work 7 program 0 22 X`ma<oN_<HSI9m4]U==Ln1
+l59
+L55
+V>il=]j7d49GBdiRN477EV1
+!s100 2[m8QfciSCa6EzcIgOC:A3
+R9
+31
+R20
+!i10b 1
+R21
+R70
+R71
+!i113 1
+R14
+R15
+Eps2_intf
+Z72 w1314881736
+R3
+R2
+R5
+R6
+R0
+Z73 8C:/FPGA/Altera/DE0_CV/OSI_Searle_Q17/Components/PS2KB/ps2_intf.vhd
+Z74 FC:/FPGA/Altera/DE0_CV/OSI_Searle_Q17/Components/PS2KB/ps2_intf.vhd
+l0
+L46
+VfZa_QnUW991kca6OPI?zo2
+!s100 Cz2HAh09L9fJIz`7WZX7]1
+R9
+31
+R42
+!i10b 1
+R21
+Z75 !s90 -reportprogress|300|-93|-work|work|C:/FPGA/Altera/DE0_CV/OSI_Searle_Q17/Components/PS2KB/ps2_intf.vhd|
+Z76 !s107 C:/FPGA/Altera/DE0_CV/OSI_Searle_Q17/Components/PS2KB/ps2_intf.vhd|
+!i113 1
+R14
+R15
+Aps2_intf_arch
+R3
+R2
+R5
+R6
+DEx4 work 8 ps2_intf 0 22 fZa_QnUW991kca6OPI?zo2
+l75
+L64
+VKSRTM8oASB5BUL62V;^W[1
+!s100 S26o12f^zCihKgFQN>bzZ3
+R9
+31
+R42
+!i10b 1
+R21
+R75
+R76
+!i113 1
+R14
+R15
+Et65
+Z77 w1382437876
+Z78 DPx4 work 8 t65_pack 0 22 8l73FU=G05B]U6kzh6>[<3
+R4
+R5
+R6
+R0
+Z79 8C:/FPGA/Altera/DE0_CV/OSI_Searle_Q17/Components/M6502/T65.vhd
+Z80 FC:/FPGA/Altera/DE0_CV/OSI_Searle_Q17/Components/M6502/T65.vhd
+l0
+L71
+VoVN2=3YS7T_ChaQYIYZm=1
+!s100 P@j7T^J1Y63o27Jo?=Ebg3
+R9
+31
+R42
+!i10b 1
+R43
+Z81 !s90 -reportprogress|300|-93|-work|work|C:/FPGA/Altera/DE0_CV/OSI_Searle_Q17/Components/M6502/T65.vhd|
+Z82 !s107 C:/FPGA/Altera/DE0_CV/OSI_Searle_Q17/Components/M6502/T65.vhd|
+!i113 1
+R14
+R15
+Artl
+R78
+R4
+R5
+R6
+DEx4 work 3 t65 0 22 oVN2=3YS7T_ChaQYIYZm=1
+l170
+L97
+VRLY?J>gd9a_i^7MHKSl?G1
+!s100 XzX]jKAG@higI;gT>EW><2
+R9
+31
+R42
+!i10b 1
+R43
+R81
+R82
+!i113 1
+R14
+R15
+Et65_alu
+Z83 w1382438352
+R78
+R4
+R5
+R6
+R0
+Z84 8C:/FPGA/Altera/DE0_CV/OSI_Searle_Q17/Components/M6502/T65_ALU.vhd
+Z85 FC:/FPGA/Altera/DE0_CV/OSI_Searle_Q17/Components/M6502/T65_ALU.vhd
+l0
+L64
+VD@U`h<Xhh@_S^KY^acnh;0
+!s100 6a<WD<[9__bV3>]PY=cO?2
+R9
+31
+R42
+!i10b 1
+R43
+Z86 !s90 -reportprogress|300|-93|-work|work|C:/FPGA/Altera/DE0_CV/OSI_Searle_Q17/Components/M6502/T65_ALU.vhd|
+Z87 !s107 C:/FPGA/Altera/DE0_CV/OSI_Searle_Q17/Components/M6502/T65_ALU.vhd|
+!i113 1
+R14
+R15
+Artl
+R78
+R4
+R5
+R6
+DEx4 work 7 t65_alu 0 22 D@U`h<Xhh@_S^KY^acnh;0
+l90
+L76
+V_Z8RdZAGBdf?d8De6z60Z2
+!s100 ]i8:^BcDiJLTfk^XzTFUS2
+R9
+31
+R42
+!i10b 1
+R43
+R86
+R87
+!i113 1
+R14
+R15
+Et65_mcode
+Z88 w1382437914
+R78
+R4
+R5
+R6
+R0
+Z89 8C:/FPGA/Altera/DE0_CV/OSI_Searle_Q17/Components/M6502/T65_MCode.vhd
+Z90 FC:/FPGA/Altera/DE0_CV/OSI_Searle_Q17/Components/M6502/T65_MCode.vhd
+l0
+L70
+VQnEXM^6:@TH[7o^g]1`La3
+!s100 ]Ac4?l4aI^9`hN_ZNI5To2
+R9
+31
+R42
+!i10b 1
+R43
+Z91 !s90 -reportprogress|300|-93|-work|work|C:/FPGA/Altera/DE0_CV/OSI_Searle_Q17/Components/M6502/T65_MCode.vhd|
+Z92 !s107 C:/FPGA/Altera/DE0_CV/OSI_Searle_Q17/Components/M6502/T65_MCode.vhd|
+!i113 1
+R14
+R15
+Artl
+R78
+R4
+R5
+R6
+DEx4 work 9 t65_mcode 0 22 QnEXM^6:@TH[7o^g]1`La3
+l108
+L104
+V?H]RDYeCg>:;k9X1gO6[>2
+!s100 73Wzm>Zd1=]FW5eVD36Bi1
+R9
+31
+R42
+!i10b 1
+R43
+R91
+R92
+!i113 1
+R14
+R15
+Pt65_pack
+R5
+R6
+w1382437918
+R0
+8C:/FPGA/Altera/DE0_CV/OSI_Searle_Q17/Components/M6502/T65_Pack.vhd
+FC:/FPGA/Altera/DE0_CV/OSI_Searle_Q17/Components/M6502/T65_Pack.vhd
+l0
+L60
+V8l73FU=G05B]U6kzh6>[<3
+!s100 =_igMWa>i;5HdgP]O2d>23
+R9
+31
+R42
+!i10b 1
+R43
+!s90 -reportprogress|300|-93|-work|work|C:/FPGA/Altera/DE0_CV/OSI_Searle_Q17/Components/M6502/T65_Pack.vhd|
+!s107 C:/FPGA/Altera/DE0_CV/OSI_Searle_Q17/Components/M6502/T65_Pack.vhd|
+!i113 1
+R14
+R15
+Euk101
+w1501858965
+R3
+R2
+R5
+R6
+R0
+8C:/FPGA/Altera/DE0_CV/OSI_Searle_Q17/UK101_DE0CV/uk101.vhd
+FC:/FPGA/Altera/DE0_CV/OSI_Searle_Q17/UK101_DE0CV/uk101.vhd
+l0
+L23
+V8[W4_5Dz>BMIFTH>TB^Sd2
+!s100 eDCb=gI[oedSZ4>Zd@GGl1
+R9
+31
+R42
+!i10b 1
+R43
+!s90 -reportprogress|300|-93|-work|work|C:/FPGA/Altera/DE0_CV/OSI_Searle_Q17/UK101_DE0CV/uk101.vhd|
+!s107 C:/FPGA/Altera/DE0_CV/OSI_Searle_Q17/UK101_DE0CV/uk101.vhd|
+!i113 1
+R14
+R15
+Euk101keyboard
+Z93 w1498475884
+R4
+R5
+R6
+R0
+Z94 8C:/FPGA/Altera/DE0_CV/OSI_Searle_Q17/Components/PS2KB/UK101keyboard.vhd
+Z95 FC:/FPGA/Altera/DE0_CV/OSI_Searle_Q17/Components/PS2KB/UK101keyboard.vhd
+l0
+L63
+Vh4F_KJlGO0]ilA:53LI;]1
+!s100 SR?ZVYUno44`Q9H6IbVT;0
+R9
+31
+R20
+!i10b 1
+R21
+Z96 !s90 -reportprogress|300|-93|-work|work|C:/FPGA/Altera/DE0_CV/OSI_Searle_Q17/Components/PS2KB/UK101keyboard.vhd|
+Z97 !s107 C:/FPGA/Altera/DE0_CV/OSI_Searle_Q17/Components/PS2KB/UK101keyboard.vhd|
+!i113 1
+R14
+R15
+Artl
+R4
+R5
+R6
+DEx4 work 13 uk101keyboard 0 22 h4F_KJlGO0]ilA:53LI;]1
+l120
+L84
+VZ>RF=M6VFToV[ZOPOnD6_1
+!s100 SKe:4Im9j@kQ05lPc4HDU1
+R9
+31
+R20
+!i10b 1
+R21
+R96
+R97
+!i113 1
+R14
+R15
+Euk101textdisplay
+Z98 w1499690578
+R2
+R3
+R4
+R5
+R6
+R0
+Z99 8C:/FPGA/Altera/DE0_CV/OSI_Searle_Q17/UK101_DE0CV/UK101TextDisplay.vhd
+Z100 FC:/FPGA/Altera/DE0_CV/OSI_Searle_Q17/UK101_DE0CV/UK101TextDisplay.vhd
+l0
+L25
+V018UnDVPbV4^<2h0jb_FW3
+!s100 5I6oRIlFJV:APKW3l27S41
+R9
+31
+R20
+!i10b 1
+R21
+Z101 !s90 -reportprogress|300|-93|-work|work|C:/FPGA/Altera/DE0_CV/OSI_Searle_Q17/UK101_DE0CV/UK101TextDisplay.vhd|
+Z102 !s107 C:/FPGA/Altera/DE0_CV/OSI_Searle_Q17/UK101_DE0CV/UK101TextDisplay.vhd|
+!i113 1
+R14
+R15
+Artl
+R2
+R3
+R4
+R5
+R6
+DEx4 work 16 uk101textdisplay 0 22 018UnDVPbV4^<2h0jb_FW3
+l98
+L53
+VoX22f`l=6Qd[hYSRD65bB3
+!s100 D7k;j<9@4`DiggCYkkkFM1
+R9
+31
+R20
+!i10b 1
+R21
+R101
+R102
+!i113 1
+R14
+R15

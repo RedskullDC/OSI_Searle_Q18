@@ -1,0 +1,300 @@
+# Reading C:/intelFPGA/17.0/modelsim_ae/tcl/vsim/pref.tcl
+# do uk101_run_msim_rtl_vhdl.do
+# if ![file isdirectory uk101_iputf_libs] {
+# 	file mkdir uk101_iputf_libs
+# }
+# 
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Model Technology ModelSim - Intel FPGA Edition vmap 10.5b Lib Mapping Utility 2016.10 Oct  5 2016
+# vmap work rtl_work 
+# Copying C:/intelFPGA/17.0/modelsim_ae/win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# 
+###### Libraries for IPUTF cores 
+###### End libraries for IPUTF cores 
+###### MIF file copy and HDL compilation commands for IPUTF cores 
+# 
+# 
+# vcom "C:/FPGA/Altera/DE0_CV/OSI_Searle_Q17/UK101_DE0CV/PLL5_25_sim/PLL5_25.vho"
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 23:57:30 on Aug 08,2017
+# vcom -reportprogress 300 C:/FPGA/Altera/DE0_CV/OSI_Searle_Q17/UK101_DE0CV/PLL5_25_sim/PLL5_25.vho 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package altera_lnsim_components
+# -- Compiling entity PLL5_25
+# -- Compiling architecture RTL of PLL5_25
+# End time: 23:57:30 on Aug 08,2017, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vcom -93 -work work {C:/FPGA/Altera/DE0_CV/OSI_Searle_Q17/Components/6850/acia6850.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 23:57:30 on Aug 08,2017
+# vcom -reportprogress 300 -93 -work work C:/FPGA/Altera/DE0_CV/OSI_Searle_Q17/Components/6850/acia6850.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Compiling entity acia6850
+# -- Compiling architecture rtl of acia6850
+# End time: 23:57:30 on Aug 08,2017, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {C:/FPGA/Altera/DE0_CV/OSI_Searle_Q17/Components/6821/pia6821.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 23:57:31 on Aug 08,2017
+# vcom -reportprogress 300 -93 -work work C:/FPGA/Altera/DE0_CV/OSI_Searle_Q17/Components/6821/pia6821.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Compiling entity pia6821
+# -- Compiling architecture pia_arch of pia6821
+# End time: 23:57:31 on Aug 08,2017, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {C:/FPGA/Altera/DE0_CV/OSI_Searle_Q17/UK101/HiresRam.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 23:57:31 on Aug 08,2017
+# vcom -reportprogress 300 -93 -work work C:/FPGA/Altera/DE0_CV/OSI_Searle_Q17/UK101/HiresRam.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package altera_mf_components
+# -- Compiling entity HiresRam
+# -- Compiling architecture SYN of hiresram
+# End time: 23:57:31 on Aug 08,2017, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {C:/FPGA/Altera/DE0_CV/OSI_Searle_Q17/UK101_DE0CV/UK101TextDisplay.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 23:57:31 on Aug 08,2017
+# vcom -reportprogress 300 -93 -work work C:/FPGA/Altera/DE0_CV/OSI_Searle_Q17/UK101_DE0CV/UK101TextDisplay.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Compiling entity UK101TextDisplay
+# -- Compiling architecture rtl of UK101TextDisplay
+# End time: 23:57:31 on Aug 08,2017, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {C:/FPGA/Altera/DE0_CV/OSI_Searle_Q17/UK101_DE0CV/ProgRam.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 23:57:31 on Aug 08,2017
+# vcom -reportprogress 300 -93 -work work C:/FPGA/Altera/DE0_CV/OSI_Searle_Q17/UK101_DE0CV/ProgRam.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package altera_mf_components
+# -- Compiling entity ProgRam
+# -- Compiling architecture SYN of program
+# End time: 23:57:31 on Aug 08,2017, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {C:/FPGA/Altera/DE0_CV/OSI_Searle_Q17/UK101/CharRom.VHD}
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 23:57:31 on Aug 08,2017
+# vcom -reportprogress 300 -93 -work work C:/FPGA/Altera/DE0_CV/OSI_Searle_Q17/UK101/CharRom.VHD 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Compiling entity CharRom
+# -- Compiling architecture behavior of CharRom
+# End time: 23:57:31 on Aug 08,2017, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {C:/FPGA/Altera/DE0_CV/OSI_Searle_Q17/UK101/CegmonRom.VHD}
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 23:57:31 on Aug 08,2017
+# vcom -reportprogress 300 -93 -work work C:/FPGA/Altera/DE0_CV/OSI_Searle_Q17/UK101/CegmonRom.VHD 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Compiling entity CegmonRom
+# -- Compiling architecture behavior of CegmonRom
+# End time: 23:57:31 on Aug 08,2017, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {C:/FPGA/Altera/DE0_CV/OSI_Searle_Q17/UK101/BasicRom.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 23:57:31 on Aug 08,2017
+# vcom -reportprogress 300 -93 -work work C:/FPGA/Altera/DE0_CV/OSI_Searle_Q17/UK101/BasicRom.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package altera_mf_components
+# -- Compiling entity BasicRom
+# -- Compiling architecture SYN of basicrom
+# End time: 23:57:31 on Aug 08,2017, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {C:/FPGA/Altera/DE0_CV/OSI_Searle_Q17/UK101/DisplayRam.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 23:57:31 on Aug 08,2017
+# vcom -reportprogress 300 -93 -work work C:/FPGA/Altera/DE0_CV/OSI_Searle_Q17/UK101/DisplayRam.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package altera_mf_components
+# -- Compiling entity DisplayRam
+# -- Compiling architecture SYN of displayram
+# End time: 23:57:31 on Aug 08,2017, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {C:/FPGA/Altera/DE0_CV/OSI_Searle_Q17/Components/UART/bufferedUART.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 23:57:31 on Aug 08,2017
+# vcom -reportprogress 300 -93 -work work C:/FPGA/Altera/DE0_CV/OSI_Searle_Q17/Components/UART/bufferedUART.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Compiling entity bufferedUART
+# -- Compiling architecture rtl of bufferedUART
+# End time: 23:57:31 on Aug 08,2017, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {C:/FPGA/Altera/DE0_CV/OSI_Searle_Q17/Components/PS2KB/UK101keyboard.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 23:57:31 on Aug 08,2017
+# vcom -reportprogress 300 -93 -work work C:/FPGA/Altera/DE0_CV/OSI_Searle_Q17/Components/PS2KB/UK101keyboard.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity UK101keyboard
+# -- Compiling architecture rtl of UK101keyboard
+# End time: 23:57:31 on Aug 08,2017, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {C:/FPGA/Altera/DE0_CV/OSI_Searle_Q17/Components/PS2KB/ps2_intf.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 23:57:31 on Aug 08,2017
+# vcom -reportprogress 300 -93 -work work C:/FPGA/Altera/DE0_CV/OSI_Searle_Q17/Components/PS2KB/ps2_intf.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Compiling entity ps2_intf
+# -- Compiling architecture ps2_intf_arch of ps2_intf
+# End time: 23:57:32 on Aug 08,2017, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {C:/FPGA/Altera/DE0_CV/OSI_Searle_Q17/Components/M6502/T65_Pack.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 23:57:32 on Aug 08,2017
+# vcom -reportprogress 300 -93 -work work C:/FPGA/Altera/DE0_CV/OSI_Searle_Q17/Components/M6502/T65_Pack.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling package T65_Pack
+# End time: 23:57:32 on Aug 08,2017, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {C:/FPGA/Altera/DE0_CV/OSI_Searle_Q17/UK101_DE0CV/DiskRAM.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 23:57:32 on Aug 08,2017
+# vcom -reportprogress 300 -93 -work work C:/FPGA/Altera/DE0_CV/OSI_Searle_Q17/UK101_DE0CV/DiskRAM.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package altera_mf_components
+# -- Compiling entity DiskRAM
+# -- Compiling architecture SYN of diskram
+# End time: 23:57:32 on Aug 08,2017, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {C:/FPGA/Altera/DE0_CV/OSI_Searle_Q17/Components/M6502/T65_MCode.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 23:57:32 on Aug 08,2017
+# vcom -reportprogress 300 -93 -work work C:/FPGA/Altera/DE0_CV/OSI_Searle_Q17/Components/M6502/T65_MCode.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package T65_Pack
+# -- Compiling entity T65_MCode
+# -- Compiling architecture rtl of T65_MCode
+# End time: 23:57:32 on Aug 08,2017, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {C:/FPGA/Altera/DE0_CV/OSI_Searle_Q17/Components/M6502/T65_ALU.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 23:57:32 on Aug 08,2017
+# vcom -reportprogress 300 -93 -work work C:/FPGA/Altera/DE0_CV/OSI_Searle_Q17/Components/M6502/T65_ALU.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package T65_Pack
+# -- Compiling entity T65_ALU
+# -- Compiling architecture rtl of T65_ALU
+# End time: 23:57:32 on Aug 08,2017, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {C:/FPGA/Altera/DE0_CV/OSI_Searle_Q17/Components/M6502/T65.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 23:57:32 on Aug 08,2017
+# vcom -reportprogress 300 -93 -work work C:/FPGA/Altera/DE0_CV/OSI_Searle_Q17/Components/M6502/T65.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package T65_Pack
+# -- Compiling entity T65
+# -- Compiling architecture rtl of T65
+# End time: 23:57:32 on Aug 08,2017, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {C:/FPGA/Altera/DE0_CV/OSI_Searle_Q17/UK101_DE0CV/uk101.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 23:57:32 on Aug 08,2017
+# vcom -reportprogress 300 -93 -work work C:/FPGA/Altera/DE0_CV/OSI_Searle_Q17/UK101_DE0CV/uk101.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Compiling entity uk101
+# -- Compiling architecture struct of uk101
+# -- Loading package NUMERIC_STD
+# -- Loading package T65_Pack
+# -- Loading entity T65
+# -- Loading package altera_mf_components
+# -- Loading entity BasicRom
+# -- Loading entity ProgRam
+# ** Error: C:/FPGA/Altera/DE0_CV/OSI_Searle_Q17/UK101_DE0CV/uk101.vhd(211): (vcom-1436) Actual expression (prefix expression) of formal "wren" is not globally static.
+# -- Loading entity CegmonRom
+# -- Loading entity bufferedUART
+# ** Error: C:/FPGA/Altera/DE0_CV/OSI_Searle_Q17/UK101_DE0CV/uk101.vhd(224): (vcom-1436) Actual expression (infix expression) of formal "n_wr" is not globally static.
+# ** Error: C:/FPGA/Altera/DE0_CV/OSI_Searle_Q17/UK101_DE0CV/uk101.vhd(225): (vcom-1436) Actual expression (infix expression) of formal "n_rd" is not globally static.
+# -- Loading entity UK101TextDisplay
+# ** Error: C:/FPGA/Altera/DE0_CV/OSI_Searle_Q17/UK101_DE0CV/uk101.vhd(316): (vcom-1436) Actual expression (infix expression) of formal "hires_enbl" is not globally static.
+# ** Error: C:/FPGA/Altera/DE0_CV/OSI_Searle_Q17/UK101_DE0CV/uk101.vhd(317): (vcom-1436) Actual expression (infix expression) of formal "hires_mix" is not globally static.
+# -- Loading entity CharRom
+# -- Loading entity DisplayRam
+# ** Error: C:/FPGA/Altera/DE0_CV/OSI_Searle_Q17/UK101_DE0CV/uk101.vhd(350): (vcom-1436) Actual expression (prefix expression) of formal "wren_a" is not globally static.
+# ** Error: C:/FPGA/Altera/DE0_CV/OSI_Searle_Q17/UK101_DE0CV/uk101.vhd(366): (vcom-1436) Actual expression (prefix expression) of formal "wren_a" is not globally static.
+# -- Loading entity HiresRam
+# ** Error: C:/FPGA/Altera/DE0_CV/OSI_Searle_Q17/UK101_DE0CV/uk101.vhd(382): (vcom-1436) Actual expression (prefix expression) of formal "wren_a" is not globally static.
+# -- Loading entity UK101keyboard
+# -- Loading entity DiskRAM
+# ** Error (suppressible): C:/FPGA/Altera/DE0_CV/OSI_Searle_Q17/UK101_DE0CV/uk101.vhd(399): (vcom-1141) Identifier "DiskRAM" does not identify a component declaration.
+# -- Loading entity pia6821
+# ** Error: C:/FPGA/Altera/DE0_CV/OSI_Searle_Q17/UK101_DE0CV/uk101.vhd(416): (vcom-1436) Actual expression (prefix expression) of formal "rst" is not globally static.
+# ** Error: C:/FPGA/Altera/DE0_CV/OSI_Searle_Q17/UK101_DE0CV/uk101.vhd(417): (vcom-1436) Actual expression (prefix expression) of formal "cs" is not globally static.
+# -- Loading entity acia6850
+# ** Error: C:/FPGA/Altera/DE0_CV/OSI_Searle_Q17/UK101_DE0CV/uk101.vhd(441): (vcom-1436) Actual expression (prefix expression) of formal "rst" is not globally static.
+# ** Error: C:/FPGA/Altera/DE0_CV/OSI_Searle_Q17/UK101_DE0CV/uk101.vhd(442): (vcom-1436) Actual expression (prefix expression) of formal "cs" is not globally static.
+# ** Error: C:/FPGA/Altera/DE0_CV/OSI_Searle_Q17/UK101_DE0CV/uk101.vhd(193): (vcom-1193) Formal "A" length is 24; number of individual associations is 16.
+# ** Error: C:/FPGA/Altera/DE0_CV/OSI_Searle_Q17/UK101_DE0CV/uk101.vhd(468): VHDL Compiler exiting
+# End time: 23:57:32 on Aug 08,2017, Elapsed time: 0:00:00
+# Errors: 15, Warnings: 0
+# ** Error: C:/intelFPGA/17.0/modelsim_ae/win32aloem/vcom failed.
+# Error in macro ./uk101_run_msim_rtl_vhdl.do line 36
+# C:/intelFPGA/17.0/modelsim_ae/win32aloem/vcom failed.
+#     while executing
+# "vcom -93 -work work {C:/FPGA/Altera/DE0_CV/OSI_Searle_Q17/UK101_DE0CV/uk101.vhd}"
